@@ -1,0 +1,2 @@
+export const IMAGE_MAX_SIZE = 10 * 1024 * 1024; // 10 MB
+export const CUSTOMIZATION_IMAGE_MAX_SIZE = 10 * 1024 * 1024; // 10 MB

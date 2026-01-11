@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /cart
+Disallow: /dashboard
+Disallow: /register
+Disallow: /search
+Disallow: /adm
+Allow: /
+
+Sitemap: https://floriwish.com/sitemap.xml

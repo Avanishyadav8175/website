@@ -1,0 +1,74 @@
+"use client";
+
+// icons
+import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react";
+
+// hooks
+import { useCallback, useId } from "react";
+import { useWindowSize } from "usehooks-ts";
+
+// components
+import CategoryRelatedCategoryItem from "./CategoryRelatedCategoryItem";
+
+// types
+import { type ContentCategoryDocument } from "@/common/types/documentation/categories/contentCategory";
+
+export default function CategoryRelatedCategories({
+  categories
+}: {
+  categories: ContentCategoryDocument[];
+}) {
+  // hooks
+  const trayId = useId();
+  const { width } = useWindowSize();
+
+  // event handlers
+  const handleScroll = useCallback(
+    (dir: "left" | "right") => {
+      const tray = document.getElementById(trayId) as HTMLElement;
+
+      const currOffset = tray.scrollLeft;
+
+      tray.scrollTo({
+        left: currOffset + (dir === "left" ? -1 : 1) * (width * 0.65),
+        behavior: "smooth"
+      });
+    },
+    [trayId, width]
+  );
+
+  return (
+    <div
+      id={trayId || ""}
+      className={`relative flex items-start justify-start overflow-auto gap-x-5 gap-y-4 sm:gap-x-4 sm:gap-y-8 max-sm:px-4 sm:py-3 pl-3 w-full transition-all duration-300 scrollbar-hide`}
+    >
+      {categories.length > 4 && (
+        <div
+          className="max-sm:hidden max-w-9 w-8 h-8 sm:w-9 sm:h-9 sticky top-1/2 sm:top-1/2 aspect-square -translate-y-1/2 -left-1 sm:left-0 rounded-full cursor-pointer flex items-center justify-center bg-white/50 p-1.5 sm:p-2 backdrop-blur-sm border border-neutral-200 text-slate-900 transition-all duration-300 hover:bg-white max-sm:mr-[-31px] mr-[-40px] z-50"
+          onClick={() => {
+            handleScroll("left");
+          }}
+        >
+          <ChevronLeftIcon />
+        </div>
+      )}
+      {categories.map((category, i) => (
+        <CategoryRelatedCategoryItem
+          key={category._id as string}
+          index={i}
+          category={category}
+        />
+      ))}
+      {categories.length > 4 && (
+        <div
+          className="max-sm:hidden max-w-9 w-8 h-8 sm:w-9 sm:h-9 sticky top-1/2 sm:top-1/2 -translate-y-1/2 aspect-square -right-1 sm:right-0 rounded-full cursor-pointer flex items-center border border-neutral-200 justify-center bg-white/50 p-1.5 sm:p-2 backdrop-blur-sm text-slate-900 transition-all duration-300 hover:bg-white z-50"
+          onClick={() => {
+            handleScroll("right");
+          }}
+        >
+          <ChevronRightIcon />
+        </div>
+      )}
+    </div>
+  );
+}

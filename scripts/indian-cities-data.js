@@ -1,0 +1,756 @@
+// Comprehensive list of Indian Cities by State
+// This includes major cities, district headquarters, and important towns
+
+module.exports = {
+  // Andhra Pradesh
+  "Andhra Pradesh": [
+    { name: "Visakhapatnam", isTopCity: true, aliases: ["Vizag"] },
+    { name: "Vijayawada", isTopCity: true },
+    { name: "Guntur", isTopCity: true },
+    { name: "Nellore", isTopCity: false },
+    { name: "Kurnool", isTopCity: false },
+    { name: "Rajahmundry", isTopCity: false },
+    { name: "Kakinada", isTopCity: false },
+    { name: "Tirupati", isTopCity: true },
+    { name: "Anantapur", isTopCity: false },
+    { name: "Kadapa", isTopCity: false },
+    { name: "Vizianagaram", isTopCity: false },
+    { name: "Eluru", isTopCity: false },
+    { name: "Ongole", isTopCity: false },
+    { name: "Nandyal", isTopCity: false },
+    { name: "Machilipatnam", isTopCity: false },
+    { name: "Adoni", isTopCity: false },
+    { name: "Tenali", isTopCity: false },
+    { name: "Chittoor", isTopCity: false },
+    { name: "Hindupur", isTopCity: false },
+    { name: "Proddatur", isTopCity: false },
+    { name: "Bhimavaram", isTopCity: false },
+    { name: "Madanapalle", isTopCity: false },
+    { name: "Guntakal", isTopCity: false },
+    { name: "Dharmavaram", isTopCity: false },
+    { name: "Gudivada", isTopCity: false },
+    { name: "Srikakulam", isTopCity: false },
+    { name: "Narasaraopet", isTopCity: false },
+    { name: "Tadepalligudem", isTopCity: false },
+    { name: "Tadipatri", isTopCity: false },
+    { name: "Chilakaluripet", isTopCity: false }
+  ],
+
+  // Arunachal Pradesh
+  "Arunachal Pradesh": [
+    { name: "Itanagar", isTopCity: true },
+    { name: "Naharlagun", isTopCity: false },
+    { name: "Tawang", isTopCity: false },
+    { name: "Bomdila", isTopCity: false },
+    { name: "Pasighat", isTopCity: false },
+    { name: "Tezu", isTopCity: false },
+    { name: "Ziro", isTopCity: false },
+    { name: "Aalo", isTopCity: false },
+    { name: "Daporijo", isTopCity: false },
+    { name: "Along", isTopCity: false }
+  ],
+
+  // Assam
+  "Assam": [
+    { name: "Guwahati", isTopCity: true },
+    { name: "Silchar", isTopCity: true },
+    { name: "Dibrugarh", isTopCity: true },
+    { name: "Jorhat", isTopCity: false },
+    { name: "Nagaon", isTopCity: false },
+    { name: "Tinsukia", isTopCity: false },
+    { name: "Tezpur", isTopCity: false },
+    { name: "Bongaigaon", isTopCity: false },
+    { name: "Dhubri", isTopCity: false },
+    { name: "Diphu", isTopCity: false },
+    { name: "North Lakhimpur", isTopCity: false },
+    { name: "Karimganj", isTopCity: false },
+    { name: "Goalpara", isTopCity: false },
+    { name: "Barpeta", isTopCity: false },
+    { name: "Sivasagar", isTopCity: false },
+    { name: "Hailakandi", isTopCity: false },
+    { name: "Kokrajhar", isTopCity: false },
+    { name: "Mangaldoi", isTopCity: false },
+    { name: "Dhekiajuli", isTopCity: false },
+    { name: "Morigaon", isTopCity: false }
+  ],
+
+  // Bihar
+  "Bihar": [
+    { name: "Patna", isTopCity: true },
+    { name: "Gaya", isTopCity: true },
+    { name: "Bhagalpur", isTopCity: true },
+    { name: "Muzaffarpur", isTopCity: true },
+    { name: "Purnia", isTopCity: false },
+    { name: "Darbhanga", isTopCity: false },
+    { name: "Bihar Sharif", isTopCity: false },
+    { name: "Arrah", isTopCity: false },
+    { name: "Begusarai", isTopCity: false },
+    { name: "Katihar", isTopCity: false },
+    { name: "Munger", isTopCity: false },
+    { name: "Chhapra", isTopCity: false },
+    { name: "Sitamarhi", isTopCity: false },
+    { name: "Saharsa", isTopCity: false },
+    { name: "Hajipur", isTopCity: false },
+    { name: "Sasaram", isTopCity: false },
+    { name: "Dehri", isTopCity: false },
+    { name: "Bettiah", isTopCity: false },
+    { name: "Motihari", isTopCity: false },
+    { name: "Siwan", isTopCity: false },
+    { name: "Kishanganj", isTopCity: false },
+    { name: "Jamalpur", isTopCity: false },
+    { name: "Buxar", isTopCity: false },
+    { name: "Jehanabad", isTopCity: false },
+    { name: "Aurangabad", isTopCity: false },
+    { name: "Lakhisarai", isTopCity: false },
+    { name: "Madhubani", isTopCity: false },
+    { name: "Samastipur", isTopCity: false },
+    { name: "Khagaria", isTopCity: false },
+    { name: "Nawada", isTopCity: false }
+  ],
+
+  // Chhattisgarh
+  "Chhattisgarh": [
+    { name: "Raipur", isTopCity: true },
+    { name: "Bhilai", isTopCity: true },
+    { name: "Bilaspur", isTopCity: true },
+    { name: "Korba", isTopCity: false },
+    { name: "Raigarh", isTopCity: false },
+    { name: "Jagdalpur", isTopCity: false },
+    { name: "Ambikapur", isTopCity: false },
+    { name: "Durg", isTopCity: false },
+    { name: "Rajnandgaon", isTopCity: false },
+    { name: "Dhamtari", isTopCity: false },
+    { name: "Janjgir", isTopCity: false },
+    { name: "Kanker", isTopCity: false },
+    { name: "Kawardha", isTopCity: false },
+    { name: "Mahasamund", isTopCity: false },
+    { name: "Bemetara", isTopCity: false },
+    { name: "Balod", isTopCity: false },
+    { name: "Gariaband", isTopCity: false },
+    { name: "Mungeli", isTopCity: false },
+    { name: "Sakti", isTopCity: false },
+    { name: "Chirmiri", isTopCity: false }
+  ],
+
+  // Goa
+  "Goa": [
+    { name: "Panaji", isTopCity: true, aliases: ["Panjim"] },
+    { name: "Margao", isTopCity: true, aliases: ["Madgaon"] },
+    { name: "Vasco da Gama", isTopCity: false },
+    { name: "Mapusa", isTopCity: false },
+    { name: "Ponda", isTopCity: false },
+    { name: "Bicholim", isTopCity: false },
+    { name: "Curchorem", isTopCity: false },
+    { name: "Valpoi", isTopCity: false },
+    { name: "Sanguem", isTopCity: false },
+    { name: "Quepem", isTopCity: false }
+  ],
+
+  // Gujarat
+  "Gujarat": [
+    { name: "Ahmedabad", isTopCity: true },
+    { name: "Surat", isTopCity: true },
+    { name: "Vadodara", isTopCity: true, aliases: ["Baroda"] },
+    { name: "Rajkot", isTopCity: true },
+    { name: "Bhavnagar", isTopCity: true },
+    { name: "Jamnagar", isTopCity: true },
+    { name: "Gandhinagar", isTopCity: true },
+    { name: "Anand", isTopCity: false },
+    { name: "Bharuch", isTopCity: false },
+    { name: "Junagadh", isTopCity: false },
+    { name: "Gandhidham", isTopCity: false },
+    { name: "Navsari", isTopCity: false },
+    { name: "Morbi", isTopCity: false },
+    { name: "Surendranagar", isTopCity: false },
+    { name: "Veraval", isTopCity: false },
+    { name: "Porbandar", isTopCity: false },
+    { name: "Mehsana", isTopCity: false },
+    { name: "Bhuj", isTopCity: false },
+    { name: "Godhra", isTopCity: false },
+    { name: "Palanpur", isTopCity: false },
+    { name: "Valsad", isTopCity: false },
+    { name: "Patan", isTopCity: false },
+    { name: "Ankleshwar", isTopCity: false },
+    { name: "Botad", isTopCity: false },
+    { name: "Dahod", isTopCity: false },
+    { name: "Jetpur", isTopCity: false },
+    { name: "Kalol", isTopCity: false },
+    { name: "Mahuva", isTopCity: false },
+    { name: "Modasa", isTopCity: false },
+    { name: "Palanpur", isTopCity: false }
+  ],
+
+  // Haryana
+  "Haryana": [
+    { name: "Faridabad", isTopCity: true },
+    { name: "Gurgaon", isTopCity: true, aliases: ["Gurugram"] },
+    { name: "Panipat", isTopCity: true },
+    { name: "Ambala", isTopCity: true },
+    { name: "Yamunanagar", isTopCity: false },
+    { name: "Rohtak", isTopCity: false },
+    { name: "Hisar", isTopCity: false },
+    { name: "Karnal", isTopCity: false },
+    { name: "Sonipat", isTopCity: false },
+    { name: "Panchkula", isTopCity: false },
+    { name: "Sirsa", isTopCity: false },
+    { name: "Bahadurgarh", isTopCity: false },
+    { name: "Jind", isTopCity: false },
+    { name: "Thanesar", isTopCity: false },
+    { name: "Kaithal", isTopCity: false },
+    { name: "Rewari", isTopCity: false },
+    { name: "Palwal", isTopCity: false },
+    { name: "Bhiwani", isTopCity: false },
+    { name: "Mahendragarh", isTopCity: false },
+    { name: "Fatehabad", isTopCity: false }
+  ],
+
+  // Himachal Pradesh
+  "Himachal Pradesh": [
+    { name: "Shimla", isTopCity: true },
+    { name: "Dharamshala", isTopCity: true },
+    { name: "Solan", isTopCity: false },
+    { name: "Mandi", isTopCity: false },
+    { name: "Bilaspur", isTopCity: false },
+    { name: "Hamirpur", isTopCity: false },
+    { name: "Una", isTopCity: false },
+    { name: "Kangra", isTopCity: false },
+    { name: "Kullu", isTopCity: false },
+    { name: "Manali", isTopCity: false },
+    { name: "Palampur", isTopCity: false },
+    { name: "Chamba", isTopCity: false },
+    { name: "Nahan", isTopCity: false },
+    { name: "Sirmaur", isTopCity: false },
+    { name: "Keylong", isTopCity: false },
+    { name: "Dalhousie", isTopCity: false },
+    { name: "Kasauli", isTopCity: false },
+    { name: "Parwanoo", isTopCity: false },
+    { name: "Sundernagar", isTopCity: false },
+    { name: "Baddi", isTopCity: false }
+  ],
+
+  // Jharkhand
+  "Jharkhand": [
+    { name: "Ranchi", isTopCity: true },
+    { name: "Jamshedpur", isTopCity: true },
+    { name: "Dhanbad", isTopCity: true },
+    { name: "Bokaro Steel City", isTopCity: true },
+    { name: "Hazaribagh", isTopCity: false },
+    { name: "Deoghar", isTopCity: false },
+    { name: "Giridih", isTopCity: false },
+    { name: "Ramgarh", isTopCity: false },
+    { name: "Medininagar", isTopCity: false, aliases: ["Daltonganj"] },
+    { name: "Chaibasa", isTopCity: false },
+    { name: "Gumla", isTopCity: false },
+    { name: "Lohardaga", isTopCity: false },
+    { name: "Pakur", isTopCity: false },
+    { name: "Sahibganj", isTopCity: false },
+    { name: "Dumka", isTopCity: false },
+    { name: "Jamtara", isTopCity: false },
+    { name: "Simdega", isTopCity: false },
+    { name: "Khunti", isTopCity: false },
+    { name: "Latehar", isTopCity: false },
+    { name: "Koderma", isTopCity: false }
+  ],
+
+  // Karnataka
+  "Karnataka": [
+    { name: "Bangalore", isTopCity: true, aliases: ["Bengaluru"] },
+    { name: "Hubli-Dharwad", isTopCity: true },
+    { name: "Mysore", isTopCity: true, aliases: ["Mysuru"] },
+    { name: "Mangalore", isTopCity: true, aliases: ["Mangaluru"] },
+    { name: "Belagavi", isTopCity: true, aliases: ["Belgaum"] },
+    { name: "Gulbarga", isTopCity: false, aliases: ["Kalaburagi"] },
+    { name: "Davangere", isTopCity: false },
+    { name: "Bellary", isTopCity: false },
+    { name: "Bijapur", isTopCity: false, aliases: ["Vijayapura"] },
+    { name: "Shimoga", isTopCity: false, aliases: ["Shivamogga"] },
+    { name: "Tumkur", isTopCity: false, aliases: ["Tumakuru"] },
+    { name: "Raichur", isTopCity: false },
+    { name: "Bidar", isTopCity: false },
+    { name: "Hospet", isTopCity: false },
+    { name: "Gadag", isTopCity: false },
+    { name: "Udupi", isTopCity: false },
+    { name: "Chitradurga", isTopCity: false },
+    { name: "Hassan", isTopCity: false },
+    { name: "Mandya", isTopCity: false },
+    { name: "Chikkamagaluru", isTopCity: false },
+    { name: "Karwar", isTopCity: false },
+    { name: "Bagalkot", isTopCity: false },
+    { name: "Kolar", isTopCity: false },
+    { name: "Chamrajnagar", isTopCity: false },
+    { name: "Koppal", isTopCity: false },
+    { name: "Yadgir", isTopCity: false },
+    { name: "Vijayapura", isTopCity: false },
+    { name: "Ballari", isTopCity: false },
+    { name: "Chikkaballapur", isTopCity: false },
+    { name: "Ramanagara", isTopCity: false }
+  ],
+
+  // Kerala
+  "Kerala": [
+    { name: "Kochi", isTopCity: true, aliases: ["Cochin"] },
+    { name: "Thiruvananthapuram", isTopCity: true, aliases: ["Trivandrum"] },
+    { name: "Kozhikode", isTopCity: true, aliases: ["Calicut"] },
+    { name: "Thrissur", isTopCity: true },
+    { name: "Kollam", isTopCity: false, aliases: ["Quilon"] },
+    { name: "Alappuzha", isTopCity: false, aliases: ["Alleppey"] },
+    { name: "Kannur", isTopCity: false, aliases: ["Cannannore"] },
+    { name: "Kottayam", isTopCity: false },
+    { name: "Palakkad", isTopCity: false },
+    { name: "Malappuram", isTopCity: false },
+    { name: "Manjeri", isTopCity: false },
+    { name: "Thalassery", isTopCity: false },
+    { name: "Ponnani", isTopCity: false },
+    { name: "Taliparamba", isTopCity: false },
+    { name: "Payyanur", isTopCity: false },
+    { name: "Chalakudy", isTopCity: false },
+    { name: "Kattappana", isTopCity: false },
+    { name: "Idukki", isTopCity: false },
+    { name: "Muvattupuzha", isTopCity: false },
+    { name: "Adoor", isTopCity: false }
+  ],
+
+  // Madhya Pradesh
+  "Madhya Pradesh": [
+    { name: "Indore", isTopCity: true },
+    { name: "Bhopal", isTopCity: true },
+    { name: "Gwalior", isTopCity: true },
+    { name: "Jabalpur", isTopCity: true },
+    { name: "Ujjain", isTopCity: true },
+    { name: "Raipur", isTopCity: false },
+    { name: "Sagar", isTopCity: false },
+    { name: "Ratlam", isTopCity: false },
+    { name: "Satna", isTopCity: false },
+    { name: "Burhanpur", isTopCity: false },
+    { name: "Murwara", isTopCity: false, aliases: ["Katni"] },
+    { name: "Singrauli", isTopCity: false },
+    { name: "Rewa", isTopCity: false },
+    { name: "Chhindwara", isTopCity: false },
+    { name: "Khandwa", isTopCity: false },
+    { name: "Morena", isTopCity: false },
+    { name: "Bhind", isTopCity: false },
+    { name: "Guna", isTopCity: false },
+    { name: "Shivpuri", isTopCity: false },
+    { name: "Vidisha", isTopCity: false },
+    { name: "Chhatarpur", isTopCity: false },
+    { name: "Damoh", isTopCity: false },
+    { name: "Mandsaur", isTopCity: false },
+    { name: "Khargone", isTopCity: false },
+    { name: "Neemuch", isTopCity: false },
+    { name: "Pithampur", isTopCity: false },
+    { name: "Dewas", isTopCity: false },
+    { name: "Betul", isTopCity: false },
+    { name: "Sehore", isTopCity: false },
+    { name: "Hoshangabad", isTopCity: false }
+  ],
+
+  // Maharashtra
+  "Maharashtra": [
+    { name: "Mumbai", isTopCity: true },
+    { name: "Pune", isTopCity: true },
+    { name: "Nagpur", isTopCity: true },
+    { name: "Thane", isTopCity: true },
+    { name: "Nashik", isTopCity: true },
+    { name: "Aurangabad", isTopCity: true },
+    { name: "Solapur", isTopCity: false },
+    { name: "Amravati", isTopCity: false },
+    { name: "Nanded", isTopCity: false },
+    { name: "Kolhapur", isTopCity: false },
+    { name: "Sangli", isTopCity: false },
+    { name: "Jalgaon", isTopCity: false },
+    { name: "Akola", isTopCity: false },
+    { name: "Latur", isTopCity: false },
+    { name: "Dhule", isTopCity: false },
+    { name: "Ahmednagar", isTopCity: false },
+    { name: "Ichalkaranji", isTopCity: false },
+    { name: "Parbhani", isTopCity: false },
+    { name: "Panvel", isTopCity: false },
+    { name: "Yavatmal", isTopCity: false },
+    { name: "Kamptee", isTopCity: false },
+    { name: "Gondia", isTopCity: false },
+    { name: "Barshi", isTopCity: false },
+    { name: "Achalpur", isTopCity: false },
+    { name: "Osmanabad", isTopCity: false },
+    { name: "Nandurbar", isTopCity: false },
+    { name: "Wardha", isTopCity: false },
+    { name: "Udgir", isTopCity: false },
+    { name: "Hinganghat", isTopCity: false },
+    { name: "Satara", isTopCity: false }
+  ],
+
+  // Manipur
+  "Manipur": [
+    { name: "Imphal", isTopCity: true },
+    { name: "Thoubal", isTopCity: false },
+    { name: "Bishnupur", isTopCity: false },
+    { name: "Ukhrul", isTopCity: false },
+    { name: "Churachandpur", isTopCity: false },
+    { name: "Kakching", isTopCity: false },
+    { name: "Lilong", isTopCity: false },
+    { name: "Mayang Imphal", isTopCity: false },
+    { name: "Moirang", isTopCity: false },
+    { name: "Nambol", isTopCity: false }
+  ],
+
+  // Meghalaya
+  "Meghalaya": [
+    { name: "Shillong", isTopCity: true },
+    { name: "Tura", isTopCity: false },
+    { name: "Jowai", isTopCity: false },
+    { name: "Nongpoh", isTopCity: false },
+    { name: "Nongstoin", isTopCity: false },
+    { name: "Williamnagar", isTopCity: false },
+    { name: "Resubelpara", isTopCity: false },
+    { name: "Baghmara", isTopCity: false },
+    { name: "Mairang", isTopCity: false },
+    { name: "Mawkyrwat", isTopCity: false }
+  ],
+
+  // Mizoram
+  "Mizoram": [
+    { name: "Aizawl", isTopCity: true },
+    { name: "Lunglei", isTopCity: false },
+    { name: "Saiha", isTopCity: false },
+    { name: "Champhai", isTopCity: false },
+    { name: "Kolasib", isTopCity: false },
+    { name: "Serchhip", isTopCity: false },
+    { name: "Lawngtlai", isTopCity: false },
+    { name: "Mamit", isTopCity: false },
+    { name: "Khawzawl", isTopCity: false },
+    { name: "Hnahthial", isTopCity: false }
+  ],
+
+  // Nagaland
+  "Nagaland": [
+    { name: "Dimapur", isTopCity: true },
+    { name: "Kohima", isTopCity: true },
+    { name: "Mokokchung", isTopCity: false },
+    { name: "Tuensang", isTopCity: false },
+    { name: "Wokha", isTopCity: false },
+    { name: "Mon", isTopCity: false },
+    { name: "Zunheboto", isTopCity: false },
+    { name: "Phek", isTopCity: false },
+    { name: "Kiphire", isTopCity: false },
+    { name: "Longleng", isTopCity: false }
+  ],
+
+  // Odisha
+  "Odisha": [
+    { name: "Bhubaneswar", isTopCity: true },
+    { name: "Cuttack", isTopCity: true },
+    { name: "Rourkela", isTopCity: true },
+    { name: "Brahmapur", isTopCity: false, aliases: ["Berhampur"] },
+    { name: "Sambalpur", isTopCity: false },
+    { name: "Puri", isTopCity: false },
+    { name: "Balasore", isTopCity: false },
+    { name: "Bhadrak", isTopCity: false },
+    { name: "Baripada", isTopCity: false },
+    { name: "Jharsuguda", isTopCity: false },
+    { name: "Jajpur", isTopCity: false },
+    { name: "Bargarh", isTopCity: false },
+    { name: "Rayagada", isTopCity: false },
+    { name: "Jeypore", isTopCity: false },
+    { name: "Bhuban", isTopCity: false },
+    { name: "Dhenkanal", isTopCity: false },
+    { name: "Angul", isTopCity: false },
+    { name: "Kendrapara", isTopCity: false },
+    { name: "Paradip", isTopCity: false },
+    { name: "Chhatrapur", isTopCity: false }
+  ],
+
+  // Punjab
+  "Punjab": [
+    { name: "Ludhiana", isTopCity: true },
+    { name: "Amritsar", isTopCity: true },
+    { name: "Jalandhar", isTopCity: true },
+    { name: "Patiala", isTopCity: true },
+    { name: "Bathinda", isTopCity: false },
+    { name: "Pathankot", isTopCity: false },
+    { name: "Hoshiarpur", isTopCity: false },
+    { name: "Batala", isTopCity: false },
+    { name: "Moga", isTopCity: false },
+    { name: "Abohar", isTopCity: false },
+    { name: "Malerkotla", isTopCity: false },
+    { name: "Khanna", isTopCity: false },
+    { name: "Mohali", isTopCity: false, aliases: ["SAS Nagar"] },
+    { name: "Barnala", isTopCity: false },
+    { name: "Firozpur", isTopCity: false },
+    { name: "Phagwara", isTopCity: false },
+    { name: "Kapurthala", isTopCity: false },
+    { name: "Muktsar", isTopCity: false },
+    { name: "Rajpura", isTopCity: false },
+    { name: "Faridkot", isTopCity: false }
+  ],
+
+  // Rajasthan
+  "Rajasthan": [
+    { name: "Jaipur", isTopCity: true },
+    { name: "Jodhpur", isTopCity: true },
+    { name: "Kota", isTopCity: true },
+    { name: "Bikaner", isTopCity: true },
+    { name: "Ajmer", isTopCity: true },
+    { name: "Udaipur", isTopCity: true },
+    { name: "Bhilwara", isTopCity: false },
+    { name: "Alwar", isTopCity: false },
+    { name: "Bharatpur", isTopCity: false },
+    { name: "Sri Ganganagar", isTopCity: false },
+    { name: "Sikar", isTopCity: false },
+    { name: "Tonk", isTopCity: false },
+    { name: "Sawai Madhopur", isTopCity: false },
+    { name: "Pali", isTopCity: false },
+    { name: "Barmer", isTopCity: false },
+    { name: "Chittorgarh", isTopCity: false },
+    { name: "Hanumangarh", isTopCity: false },
+    { name: "Beawar", isTopCity: false },
+    { name: "Dungarpur", isTopCity: false },
+    { name: "Churu", isTopCity: false },
+    { name: "Nagaur", isTopCity: false },
+    { name: "Jhunjhunu", isTopCity: false },
+    { name: "Banswara", isTopCity: false },
+    { name: "Dausa", isTopCity: false },
+    { name: "Karauli", isTopCity: false },
+    { name: "Rajsamand", isTopCity: false },
+    { name: "Pratapgarh", isTopCity: false },
+    { name: "Jalore", isTopCity: false },
+    { name: "Sirohi", isTopCity: false },
+    { name: "Jaisalmer", isTopCity: false }
+  ],
+
+  // Sikkim
+  "Sikkim": [
+    { name: "Gangtok", isTopCity: true },
+    { name: "Namchi", isTopCity: false },
+    { name: "Mangan", isTopCity: false },
+    { name: "Gyalshing", isTopCity: false },
+    { name: "Ravangla", isTopCity: false },
+    { name: "Singtam", isTopCity: false },
+    { name: "Jorethang", isTopCity: false },
+    { name: "Rangpo", isTopCity: false },
+    { name: "Pelling", isTopCity: false },
+    { name: "Lachen", isTopCity: false }
+  ],
+
+  // Tamil Nadu
+  "Tamil Nadu": [
+    { name: "Chennai", isTopCity: true },
+    { name: "Coimbatore", isTopCity: true },
+    { name: "Madurai", isTopCity: true },
+    { name: "Tiruchirappalli", isTopCity: true, aliases: ["Trichy"] },
+    { name: "Salem", isTopCity: true },
+    { name: "Tirunelveli", isTopCity: true },
+    { name: "Erode", isTopCity: false },
+    { name: "Vellore", isTopCity: false },
+    { name: "Tuticorin", isTopCity: false, aliases: ["Thoothukudi"] },
+    { name: "Dindigul", isTopCity: false },
+    { name: "Thanjavur", isTopCity: false },
+    { name: "Ranipet", isTopCity: false },
+    { name: "Sivakasi", isTopCity: false },
+    { name: "Karur", isTopCity: false },
+    { name: "Udhagamandalam", isTopCity: false, aliases: ["Ooty"] },
+    { name: "Hosur", isTopCity: false },
+    { name: "Nagercoil", isTopCity: false },
+    { name: "Kanchipuram", isTopCity: false },
+    { name: "Kumarapalayam", isTopCity: false },
+    { name: "Karaikudi", isTopCity: false },
+    { name: "Neyveli", isTopCity: false },
+    { name: "Cuddalore", isTopCity: false },
+    { name: "Kumbakonam", isTopCity: false },
+    { name: "Tiruppur", isTopCity: false },
+    { name: "Pollachi", isTopCity: false },
+    { name: "Rajapalayam", isTopCity: false },
+    { name: "Gudiyatham", isTopCity: false },
+    { name: "Pudukkottai", isTopCity: false },
+    { name: "Vaniyambadi", isTopCity: false },
+    { name: "Ambur", isTopCity: false }
+  ],
+
+  // Telangana
+  "Telangana": [
+    { name: "Hyderabad", isTopCity: true },
+    { name: "Warangal", isTopCity: true },
+    { name: "Nizamabad", isTopCity: false },
+    { name: "Karimnagar", isTopCity: false },
+    { name: "Ramagundam", isTopCity: false },
+    { name: "Khammam", isTopCity: false },
+    { name: "Mahbubnagar", isTopCity: false },
+    { name: "Nalgonda", isTopCity: false },
+    { name: "Adilabad", isTopCity: false },
+    { name: "Siddipet", isTopCity: false },
+    { name: "Sangareddy", isTopCity: false },
+    { name: "Miryalaguda", isTopCity: false },
+    { name: "Jagtial", isTopCity: false },
+    { name: "Mancherial", isTopCity: false },
+    { name: "Peddapalli", isTopCity: false },
+    { name: "Bodhan", isTopCity: false },
+    { name: "Kamareddy", isTopCity: false },
+    { name: "Medak", isTopCity: false },
+    { name: "Narayanpet", isTopCity: false },
+    { name: "Wanaparthy", isTopCity: false }
+  ],
+
+  // Tripura
+  "Tripura": [
+    { name: "Agartala", isTopCity: true },
+    { name: "Udaipur", isTopCity: false },
+    { name: "Dharmanagar", isTopCity: false },
+    { name: "Kailashahar", isTopCity: false },
+    { name: "Belonia", isTopCity: false },
+    { name: "Khowai", isTopCity: false },
+    { name: "Teliamura", isTopCity: false },
+    { name: "Ambassa", isTopCity: false },
+    { name: "Kumarghat", isTopCity: false },
+    { name: "Sabroom", isTopCity: false }
+  ],
+
+  // Uttar Pradesh
+  "Uttar Pradesh": [
+    { name: "Lucknow", isTopCity: true },
+    { name: "Kanpur", isTopCity: true },
+    { name: "Agra", isTopCity: true },
+    { name: "Meerut", isTopCity: true },
+    { name: "Varanasi", isTopCity: true, aliases: ["Benares", "Kashi"] },
+    { name: "Allahabad", isTopCity: true, aliases: ["Prayagraj"] },
+    { name: "Ghaziabad", isTopCity: true },
+    { name: "Bareilly", isTopCity: true },
+    { name: "Aligarh", isTopCity: false },
+    { name: "Moradabad", isTopCity: false },
+    { name: "Saharanpur", isTopCity: false },
+    { name: "Gorakhpur", isTopCity: false },
+    { name: "Faizabad", isTopCity: false, aliases: ["Ayodhya"] },
+    { name: "Jhansi", isTopCity: false },
+    { name: "Muzaffarnagar", isTopCity: false },
+    { name: "Mathura", isTopCity: false },
+    { name: "Firozabad", isTopCity: false },
+    { name: "Rampur", isTopCity: false },
+    { name: "Shahjahanpur", isTopCity: false },
+    { name: "Farrukhabad", isTopCity: false },
+    { name: "Maunath Bhanjan", isTopCity: false },
+    { name: "Hapur", isTopCity: false },
+    { name: "Etawah", isTopCity: false },
+    { name: "Sitapur", isTopCity: false },
+    { name: "Bulandshahr", isTopCity: false },
+    { name: "Budaun", isTopCity: false },
+    { name: "Sambhal", isTopCity: false },
+    { name: "Raebareli", isTopCity: false },
+    { name: "Amroha", isTopCity: false },
+    { name: "Hardoi", isTopCity: false }
+  ],
+
+  // Uttarakhand
+  "Uttarakhand": [
+    { name: "Dehradun", isTopCity: true },
+    { name: "Haridwar", isTopCity: true },
+    { name: "Roorkee", isTopCity: false },
+    { name: "Haldwani", isTopCity: false },
+    { name: "Rudrapur", isTopCity: false },
+    { name: "Kashipur", isTopCity: false },
+    { name: "Rishikesh", isTopCity: false },
+    { name: "Ramnagar", isTopCity: false },
+    { name: "Pithoragarh", isTopCity: false },
+    { name: "Mukteshwar", isTopCity: false },
+    { name: "Almora", isTopCity: false },
+    { name: "Nainital", isTopCity: false },
+    { name: "Mussoorie", isTopCity: false },
+    { name: "Ranikhet", isTopCity: false },
+    { name: "Chamoli", isTopCity: false },
+    { name: "Pauri", isTopCity: false },
+    { name: "Uttarkashi", isTopCity: false },
+    { name: "Tehri", isTopCity: false },
+    { name: "Bageshwar", isTopCity: false },
+    { name: "Champawat", isTopCity: false }
+  ],
+
+  // West Bengal
+  "West Bengal": [
+    { name: "Kolkata", isTopCity: true },
+    { name: "Howrah", isTopCity: true },
+    { name: "Durgapur", isTopCity: true },
+    { name: "Asansol", isTopCity: true },
+    { name: "Siliguri", isTopCity: true },
+    { name: "Bardhaman", isTopCity: false, aliases: ["Burdwan"] },
+    { name: "Malda", isTopCity: false },
+    { name: "Kharagpur", isTopCity: false },
+    { name: "Jalpaiguri", isTopCity: false },
+    { name: "Krishnanagar", isTopCity: false },
+    { name: "Raiganj", isTopCity: false },
+    { name: "Balurghat", isTopCity: false },
+    { name: "Habra", isTopCity: false },
+    { name: "Kalyani", isTopCity: false },
+    { name: "Bankura", isTopCity: false },
+    { name: "Medinipur", isTopCity: false },
+    { name: "Purulia", isTopCity: false },
+    { name: "Alipurdwar", isTopCity: false },
+    { name: "Darjeeling", isTopCity: false },
+    { name: "Cooch Behar", isTopCity: false }
+  ],
+
+  // Delhi
+  "Delhi": [
+    { name: "Delhi", isTopCity: true },
+    { name: "New Delhi", isTopCity: true },
+    { name: "Noida", isTopCity: false },
+    { name: "Ghaziabad", isTopCity: false },
+    { name: "Faridabad", isTopCity: false },
+    { name: "Gurgaon", isTopCity: false, aliases: ["Gurugram"] }
+  ],
+
+  // Jammu and Kashmir
+  "Jammu and Kashmir": [
+    { name: "Srinagar", isTopCity: true },
+    { name: "Jammu", isTopCity: true },
+    { name: "Anantnag", isTopCity: false },
+    { name: "Baramulla", isTopCity: false },
+    { name: "Sopore", isTopCity: false },
+    { name: "Udhampur", isTopCity: false },
+    { name: "Kathua", isTopCity: false },
+    { name: "Rajouri", isTopCity: false },
+    { name: "Poonch", isTopCity: false },
+    { name: "Kargil", isTopCity: false }
+  ],
+
+  // Ladakh
+  "Ladakh": [
+    { name: "Leh", isTopCity: true },
+    { name: "Kargil", isTopCity: false },
+    { name: "Drass", isTopCity: false },
+    { name: "Nubra", isTopCity: false },
+    { name: "Padum", isTopCity: false }
+  ],
+
+  // Puducherry
+  "Puducherry": [
+    { name: "Puducherry", isTopCity: true, aliases: ["Pondicherry"] },
+    { name: "Karaikal", isTopCity: false },
+    { name: "Yanam", isTopCity: false },
+    { name: "Mahe", isTopCity: false }
+  ],
+
+  // Chandigarh
+  "Chandigarh": [
+    { name: "Chandigarh", isTopCity: true }
+  ],
+
+  // Dadra and Nagar Haveli and Daman and Diu
+  "Dadra and Nagar Haveli and Daman and Diu": [
+    { name: "Silvassa", isTopCity: true },
+    { name: "Daman", isTopCity: false },
+    { name: "Diu", isTopCity: false }
+  ],
+
+  // Lakshadweep
+  "Lakshadweep": [
+    { name: "Kavaratti", isTopCity: true },
+    { name: "Agatti", isTopCity: false },
+    { name: "Minicoy", isTopCity: false }
+  ],
+
+  // Andaman and Nicobar Islands
+  "Andaman and Nicobar Islands": [
+    { name: "Port Blair", isTopCity: true },
+    { name: "Diglipur", isTopCity: false },
+    { name: "Mayabunder", isTopCity: false },
+    { name: "Rangat", isTopCity: false },
+    { name: "Car Nicobar", isTopCity: false }
+  ]
+};
+

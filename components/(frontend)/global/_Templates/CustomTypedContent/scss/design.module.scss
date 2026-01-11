@@ -1,0 +1,62 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 14px;
+
+  h1,
+  h1 > * {
+    font-size: 26px !important;
+    margin: 18px 0 12px !important;
+  }
+
+  h2,
+  h2 > * {
+    font-size: 24px !important;
+    margin: 18px 0 12px !important;
+  }
+
+  h3,
+  h3 > * {
+    font-size: 20px !important;
+    margin: 16px 0 12px !important;
+  }
+
+  h4,
+  h4 > * {
+    margin: 18px 0 7px !important;
+    font-size: 18px !important;
+  }
+
+  h2,
+  h3,
+  h4,
+  h2 > *,
+  h3 > *,
+  h4 > * {
+    color: #3c3c3c !important;
+  }
+
+  p {
+    color: #434343 !important;
+    margin: 10px 0;
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: 14px;
+    margin-bottom: 6px;
+    color: #434343 !important;
+  }
+
+  ol {
+    list-style: decimal;
+    padding-left: 18px;
+    margin-bottom: 6px;
+    color: #434343 !important;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #534401 !important;
+  }
+}

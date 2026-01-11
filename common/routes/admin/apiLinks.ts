@@ -1,0 +1,1 @@
+export const ADMIN_AUTH_ROUTE = "/api/auth/admin"

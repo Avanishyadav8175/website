@@ -1,0 +1,7 @@
+.avatarPolygon {
+  clip-path: polygon(0 0, 100% 0, calc(100% + 30px) 100%, 30px 100%);
+}
+
+.usernamePolygon {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30px 100%);
+}
